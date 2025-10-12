@@ -1,6 +1,6 @@
 describe('Login', () => {
   beforeEach( () => {
-    cy.visit(Cypress.env('URL'))
+    cy.visit('/')
     cy.screenshot(' apos-acessar-a-pagina-de-login')
   })
 
